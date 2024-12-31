@@ -239,9 +239,19 @@
   const slideCarousel = (direction) => {
     const track = document.querySelector(".carousel-track");
     const itemWidth = track.firstElementChild.offsetWidth;
+    const totalItems = track.children.length;
+    const visibleItems = Math.floor(track.offsetWidth / itemWidth);
+    const maxTranslateX = (totalItems - visibleItems) * itemWidth;
+
     const currentTransform =
       parseFloat(getComputedStyle(track).transform.split(",")[4]) || 0;
-    const newTransform = currentTransform - direction * itemWidth;
+    let newTransform = currentTransform - direction * itemWidth;
+
+    if (newTransform > 0) {
+      newTransform = 0;
+    } else if (newTransform < -maxTranslateX) {
+      newTransform = -maxTranslateX;
+    }
 
     track.style.transform = `translateX(${newTransform}px)`;
   };
