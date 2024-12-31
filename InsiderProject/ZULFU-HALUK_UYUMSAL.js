@@ -33,7 +33,7 @@
                     <img src="${product.img}" alt="${product.name}" />
                 </a>
                 <p>${product.name}</p>
-                <span class="product-price" style="color: #428bca; font-weight: bold;">${product.price} TRY</span>
+                <span class="product-price" style="color: #193db0; font-weight: bold;">${product.price} TRY</span>
                 <button class="favorite-btn" data-id="${product.id}">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20.576" height="19.483" viewBox="0 0 20.576 19.483">
                     <path fill="none" stroke="#555" stroke-width="1.5px" d="M19.032 7.111c-.278-3.063-2.446-5.285-5.159-5.285a5.128 5.128 0 0 0-4.394 2.532 4.942 4.942 0 0 0-4.288-2.532C2.478 1.826.31 4.048.032 7.111a5.449 5.449 0 0 0 .162 2.008 8.614 8.614 0 0 0 2.639 4.4l6.642 6.031 6.755-6.027a8.615 8.615 0 0 0 2.639-4.4 5.461 5.461 0 0 0 .163-2.012z" transform="translate(.756 -1.076)"></path>
