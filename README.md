@@ -1,8 +1,10 @@
 # Product Carousel
 This project implements a responsive carousel feature that meets specific requirements, such as running only on product pages, storing user preferences in local storage, and offering smooth interactions.
+
 ![first](https://github.com/user-attachments/assets/b3ecc850-c03a-4e36-9a34-e4cc04c70334)
 ![second](https://github.com/user-attachments/assets/16885b31-ca2b-475f-a6b4-e5629c3bf1d0)
 ![third](https://github.com/user-attachments/assets/8f5f6663-3757-430c-8d88-ad81e7c5de13)
+![diagram-export-31 12 2024-22_33_35](https://github.com/user-attachments/assets/f65cd9cc-75fc-4cce-a0c4-4d720ad2e9ef)
 
 ## Features
 
