@@ -1,5 +1,5 @@
 # Product Carousel
-
+This project implements a responsive carousel feature that meets specific requirements, such as running only on product pages, storing user preferences in local storage, and offering smooth interactions.
 ## Features
 
 1. **The code runs only on the product pages and is appended after the element with the `.product-detail` class:**
